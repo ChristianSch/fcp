@@ -27,7 +27,7 @@
 ; or and true false true
 ;
 ; in Clojure:
-(and true (or false true))
+(or (and true false) true)
 
 ; (e) square(7) - 7
 ;
