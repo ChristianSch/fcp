@@ -24,7 +24,7 @@
 
 ; (d) true and false or true
 ;
-; and true or false true
+; or and true false true
 ;
 ; in Clojure:
 (and true (or false true))
@@ -36,6 +36,9 @@
 ; (f) (1 = 1) or (1 != 1)
 ;
 ; or = 1 1 != 1 1
+;
+; in Clojure:
+(or (= 1 1) (not= 1 1))
 
 ; (g) (3 + 4) * (2 + 5)
 ;
