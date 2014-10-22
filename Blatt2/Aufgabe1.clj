@@ -33,9 +33,11 @@
 ; true false
 
 ; (e) Syntaxbaum zu `square(7) - 7`
-;           -
-;         /   \
-;  square(7)   7
+;      -
+;    /   \
+; square  7
+;  /
+; 7
 
 ; (f) Syntaxbaum zu `(1 = 1) or (1 != 1)`
 ;
