@@ -1,3 +1,5 @@
+(ns aufgabe3)
+
 ; Funktion aus der vorherigen Aufgabe
 (defn eval-test [x,y] (* x x))
 

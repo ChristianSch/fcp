@@ -1,3 +1,5 @@
+(ns aufgabe1)
+
 stop
 ; Rufen Sie folgende Funktion in der REPL mit Ihrem Namen auf:
 ((fn [name] (str "Hallo " name)) "Christian")
@@ -17,4 +19,3 @@ stop
 
 (defn hallo "Begrueßt den uebermittelten Nutzer" [name] (str "Hallo " name))
 (hallo "Christian")
-

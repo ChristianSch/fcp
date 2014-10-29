@@ -1,3 +1,5 @@
+(ns aufgabe2)
+
 ; Definieren Sie folgende Funktionen und machen Sie in der
 ; REPL einige Beispiele für die Verwendung der definierten Funktionen:
 
