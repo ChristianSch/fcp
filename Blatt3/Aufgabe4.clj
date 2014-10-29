@@ -4,7 +4,7 @@
   "calculates x^n"
   (cond (= n 0) 1
         (= n 1) x
-        :else (* x (pow x (dec 1)))))
+        :else (* x (pow x (dec n)))))
 (pow 1 10)
 (pow 10 2)
 (pow 1000 0)
