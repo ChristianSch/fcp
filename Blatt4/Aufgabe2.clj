@@ -3,9 +3,10 @@
 (defn max-quad
   "Gibt die Summe der Quadrate der größeren beiden Zahlen aus"
   [x,y,z]
-  (+
-   (* (max x y) (max x y))
-   (* (max y z) (max y z))))
+  (let [a (max x y)
+        b (max y z)]
+    (+ (* a a)
+       (* b b))))
 
 (max-quad 1 2 2)
 (max-quad 7 2 2)
