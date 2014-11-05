@@ -23,10 +23,12 @@
 
 ((fn [x] ((fn [x] (+ x 1)) (+ x 2))) 1)
 
-; (b) Wodurch unterscheidet sich die folgende Schachtelung und in welcher Beziehung steht sie zu Aufgabe (a)?
+; (b) Wodurch unterscheidet sich die folgende Schachtelung und in welcher Beziehung
+; steht sie zu Aufgabe (a)?
 (fn [x] ((fn [y] (+ y 1)) (+ x 2)))
 
-; Der Unterschied liegt in der Benennung der Variable im innersten Block. Die Funktion an sich ist jedoch identisch.
+; Der Unterschied liegt in der Benennung der Variable im innersten Block. Die Funktion
+; an sich ist jedoch identisch.
 
 ; fn [x]
 ;   ________________________
@@ -43,3 +45,4 @@
 ;   |    (+ x 2)
 ;   |
 ;   ------------------------
+((fn [x] ((fn [y] (+ y 1)) (+ x 2))) 1)
