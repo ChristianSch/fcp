@@ -1,3 +1,5 @@
+(ns aufgabe1)
+
 ; (a) Summe bis n mit Rekursion
 (defn simple-sum
   [n]
