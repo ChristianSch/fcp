@@ -1,3 +1,5 @@
+(ns aufgabe4)
+
 ; (a)
 (defn solve-quadratic
   "Berechnet Loesungen einer quadratischen Gleichung anhand der gegebenen Koeffizienten"
